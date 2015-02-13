@@ -1,0 +1,13 @@
+{
+  "name": "filter",
+  "version": "0.1.0",
+  "repository": "git://github.com/harrietgrace/filter.git",
+  "description": "Iterate over elements of a collection, and return an array of all elements the predicate returns truthy for.",
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "1.x"
+  }
+}
