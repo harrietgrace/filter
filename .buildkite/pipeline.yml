@@ -1,0 +1,6 @@
+steps:
+  - command: CMD /k if exist ".buildkite/pipeline.yml" buildkite-agent pipeline upload .buildkite/pipeline.yml --replace
+  - command: echo "hello"
+  - command: echo "i am a test"
+  - label: ":crab:"
+    command: echo "this is a crab"
