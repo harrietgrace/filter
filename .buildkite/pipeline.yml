@@ -1,3 +1,5 @@
+export BUILDKITE_ARTIFACT_UPLOAD_DESTINATION="in-the-pipeline-yaml"
+
 steps:
   - command: echo "hello"
   - command: echo "i am a test"
