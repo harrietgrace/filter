@@ -1,6 +1,3 @@
-env:
-  BUILDKITE_ARTIFACT_UPLOAD_DESTINATION: "in-the-pipeline-yaml"
-
 steps:
   - command: echo $BUILDKITE_ARTIFACT_UPLOAD_DESTINATION
   - command: echo "i am a test"
